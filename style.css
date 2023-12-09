@@ -103,10 +103,32 @@ p{
 
 
 .reaction{
+    align-items: center;
     border-radius: 10px;
     background-color: hsla(0, 100%, 67%, 0.2);
     height: 43px;
+}
+
+
+.reaction_title{
+    display: flex;
     align-items: center;
+    color: hsla(0, 100%, 67%);
+}
+
+.memory_title{
+    display: flex;
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal_title{
+    display: flex;
+    color: hsl(166, 100%, 37%);
+}
+
+.visual_title{
+    display: flex;
+    color: hsl(234, 85%, 45%);
 }
 
 .memory{
